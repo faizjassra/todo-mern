@@ -96,7 +96,7 @@ export default function App() {
       sx={{ background: 'linear-gradient(to bottom, #430089, #82ffa1)' }}>
 
 
-      <Box width={500}  >
+      <Box width={400}  >
         <Typography sx={{ fontStyle: 'italic', fontWeight: 'bold', textAlign: 'center', color: 'white', fontSize: 30 }} gutterBottom component="div">
           To-Do List
         </Typography>
@@ -120,7 +120,7 @@ export default function App() {
           )}
         </form>
       </Box>
-      <Card sx={{ marginTop: 3, maxHeight: 500, width: 500, border: 7, borderColor: 'white', borderRadius: 5, overflowY: 'scroll' }} >
+      <Card sx={{ marginTop: 3, maxHeight: 500, width: 400, border: 7, borderColor: 'white', borderRadius: 5, overflowY: 'scroll' }} >
         <CardContent>
 
 

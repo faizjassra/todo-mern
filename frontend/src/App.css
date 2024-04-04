@@ -5,7 +5,14 @@
 .Container {
 
   word-wrap: break-word;
-  width: 320px
+  width: 320px;
+}
+
+@media screen and (min-width: 420px) {
+  .Container {
+    width: 200px;
+  
+  }
 }
 
 .text {
